@@ -11,6 +11,12 @@ Phase 2:
 
 - make sure server serves web page
 
+in server.js:
+
+- ```app.use( express.static( 'server/public' ) );```
+- create "public" folder in "server"
+- create "index.html" in "public"
+
 Phase 3:
 --- 
 
